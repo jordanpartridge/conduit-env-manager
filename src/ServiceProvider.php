@@ -18,7 +18,7 @@ class ServiceProvider extends BaseServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->commands([
-                Jordanpartridge\ConduitEnvmanager\Commands\EnvinitCommand::class
+                EnvinitCommand::class
             ]);
         }
     }
