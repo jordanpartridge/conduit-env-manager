@@ -22,18 +22,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Jordanpartridge\ConduitEnvmanager\\": "src/"
+            "Jordanpartridge\\ConduitEnvmanager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jordanpartridge\ConduitEnvmanager\\Tests\\": "tests/"
+            "Jordanpartridge\\ConduitEnvmanager\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jordanpartridge\ConduitEnvmanager\\ServiceProvider"
+                "Jordanpartridge\\ConduitEnvmanager\\ServiceProvider"
             ]
         },
         "conduit": {
