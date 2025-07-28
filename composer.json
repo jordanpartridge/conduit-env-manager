@@ -2,7 +2,7 @@
     "name": "jordanpartridge/conduit-env-manager",
     "description": "A Conduit component for env-manager functionality",
     "type": "library",
-    "keywords": ["conduit", "laravel", "cli", "component"],
+    "keywords": ["conduit", "laravel", "cli", "component", "conduit-component"],
     "license": "MIT",
     "authors": [
         {
