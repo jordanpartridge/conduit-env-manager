@@ -39,8 +39,11 @@
         "conduit": {
             "component": true,
             "commands": [
-    "env:init"
-]
+                "env:init",
+                "env:set",
+                "env:get", 
+                "env:backup"
+            ]
         }
     },
     "minimum-stability": "stable",
